@@ -1,0 +1,44 @@
+# 1. Why Not Develop a POS Tagger?
+I've tried all of the taggers, discussed in lecture. As I suspected statistics wins here :) So the last version of my tagger combinations has all 3 n-gram taggers and regex tagger as the last check. I've also tried to add affix tagger, but it didn't seem to make any difference. 
+The order of taggers is also very importatnt, as I've discovered. For example:
+
+0.818754034861 - Unigram last (t0)
+0.889283408651 - Regex last (t0)
+
+
+#2
+NLTK
+[('Juvenile', 'NNP'), ('court', 'NN'), ('is', 'VBZ'), ('to', 'TO'), ('try', 'NN'), ('shooting', 'VBG'), ('defendant', 'NN'), ('.', '.'), 
+('Flying', 'NNP'), ('planes', 'NNS'), ('can', 'MD'), ('be', 'VB'), ('dangerous', 'JJ'), ('.', '.'), 
+('The', 'DT'), ('old', 'JJ'), ('man', 'NN'), ('the', 'DT'), ('boats', 'NNS'), ('.', '.'), 
+('War', 'NNP'), ('dims', 'VBZ'), ('hope', 'NN'), ('for', 'IN'), ('peace', 'NN'), ('.', '.'), 
+('He', 'PRP'), ('saw', 'VBD'), ('that', 'IN'), ('gas', 'NN'), ('can', 'MD'), ('explode', 'VB'), ('.', '.'), 
+('We', 'PRP'), ('saw', 'VBD'), ('her', 'PRP'), ('duck', 'NN'), ('.', '.'), 
+('Teacher', 'NN'), ('strikes', 'VBZ'), ('idle', 'NN'), ('kids', 'NNS'), ('.', '.'), 
+('Fruit', 'NN'), ('flies', 'NNS'), ('like', 'IN'), ('a', 'DT'), ('banana', 'NN'), ('.', '.')]
+
+openNLP
+Juvenile_NNP court_NN is_VBZ to_TO try_VB shooting_VBG defendant_NN ._.
+Flying_NNP planes_NNS can_MD be_VB dangerous_JJ ._.
+The_DT old_JJ man_NN the_DT boats_NNS ._.
+He_PRP saw_VBD that_IN gas_NN can_MD explode_VB ._.
+We_PRP saw_VBD her_PRP duck_NN ._.
+Teacher_NN strikes_NNS idle_JJ kids_NNS ._.
+Fruit_NNP flies_VBZ like_IN a_DT banana_NN ._.
+
+my-tagger
+[('Juvenile', 'NP'), ('court', 'NN'), ('is', u'BEZ'), ('to', u'TO'), ('try', u'VB'), ('shooting', 'VBG'), ('defendant', 'NN'), ('.', u'.')]
+[('Flying', 'VBG'), ('planes', 'VBZ'), ('can', u'MD'), ('be', u'BE'), ('dangerous.', 'NN')]
+[('The', u'AT'), ('old', u'JJ'), ('man', 'NN'), ('the', u'AT'), ('boats', 'NNS'), ('.', u'.')]
+[('War', u'NN-TL'), ('dims', 'NNS'), ('hope', u'VB'), ('for', u'IN'), ('peace', 'NN'), ('.', u'.')]
+[('He', u'PPS'), ('saw', u'VBD'), ('that', u'CS'), ('gas', u'NN'), ('can', u'MD'), ('explode', 'NN'), ('.', u'.')]
+[('We', u'PPSS'), ('saw', u'VBD'), ('her', u'PPO'), ('duck', u'VB'), ('.', u'.')]
+[('Teacher', 'NP'), ('strikes', 'VBZ'), ('idle', u'VB'), ('kids', 'NNS'), ('.', u'.')]
+[('Fruit', 'NP'), ('flies', 'VBZ'), ('like', u'CS'), ('a', u'AT'), ('banana', 'NN'), ('.', u'.')]
+
+
+As predicted, my tagger made more mistakes than NLTK and OpenNLP. However, there were some words my tagger tagged correct and others didn't. For example, word "flying" both NLTK and OpenNLP tagged as NNP at the beggining of the sentence.
+General number of mistakes: 
+NLTK - 4
+OpenNLP - 5
+My tagger - 7

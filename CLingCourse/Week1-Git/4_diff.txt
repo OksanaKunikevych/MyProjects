@@ -1,0 +1,22 @@
+diff --git a/Week-1-Git/aux-modal.txt b/Week-1-Git/aux-modal.txt
+index 7b13b87..993bf49 100644
+--- a/Week-1-Git/aux-modal.txt
++++ b/Week-1-Git/aux-modal.txt
+@@ -2,14 +2,9 @@ can
+ could
+ may
+ might
+-will
+ would
+ must
+-shall
+ should
+-be
+-am
+-is
+-are
+-have
+-do
++'d
++'ll
++'ve

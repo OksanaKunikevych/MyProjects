@@ -1,0 +1,71 @@
+1. Misspelled words detection
+
+TP: 507.0
+FP: 26.0
+FN: 59.0
+Precision: 0.951219512195
+Recall: 0.895759717314
+
+2. Correction
+
+03.03
+test-set (100 sents)
+
+TP: 107.0
+FP: 8.0
+FN: 6.0
+Precision: 0.930434782609
+Recall: 0.946902654867
+
+
+2. Misspelled words detection & correction - the correct word is among all candidates
+        med:
+            TP: 99.0
+            FP: 16.0
+            FN: 14.0
+            Precision: 0.860869565217
+            Recall: 0.87610619469
+        med (Levenstein):
+            TP: 91.0
+            FP: 24.0
+            FN: 22.0
+            Precision: 0.791304347826
+            Recall: 0.805309734513
+        med (Damerau-Levenstein):
+            TP: 99.0
+            FP: 16.0
+            FN: 14.0
+            Precision: 0.860869565217
+            Recall: 0.87610619469
+
+3. Noisy Channel Model
+
+    - Noisy Channel, Distance = 2, MED_Damerau (subst, transp = 1)
+        TP: 71.0
+        FP: 44.0
+        FN: 42.0
+        Precision: 61.7391
+        Recall: 62.8319
+
+    - Noisy Channel, Distance = 1, MED_Damerau (subst, transp = 1)
+        TP: 69.0
+        FP: 46.0
+        FN: 44.0
+        Precision: 60.0
+        Recall: 61.0619
+
+
+
+
+
+    EXPERIMENTS:
+    - Weighted MED, Distance = 1
+        TP: 68.0
+        FP: 47.0
+        FN: 45.0
+        Precision: 59.1304
+        Recall: 60.177
+
+    - Weighted MED, Distance = 2
+
+

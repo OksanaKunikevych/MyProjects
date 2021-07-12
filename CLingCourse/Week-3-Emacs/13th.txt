@@ -1,0 +1,7 @@
+1. C-u 12 C-f
+2. C-Space
+3. C-x r k
+4. Go to new file 
+5. C-x r y
+6. replace-regexp: C-q C-j ->''
+7. replace-regexp: newline -> C-q C-j

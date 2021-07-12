@@ -1,0 +1,22 @@
+One
+<<<<<<< HEAD
+Two
+Three
+master
+master
+master
+master
+master
+master
+master
+=======
+branch
+branch
+branch
+branch
+branch
+branch
+branch
+Nine
+Ten
+>>>>>>> my-branch

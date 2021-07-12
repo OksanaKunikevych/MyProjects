@@ -1,0 +1,22 @@
+commit 7d724b7da5e7d17ac2eb7162e45ac8b4534caa10
+Author: OksanaKunikevych <kunikevych@gmail.com>
+Date:   Sat Jul 4 14:58:13 2015 +0300
+
+    file removed
+
+diff --git a/Week-1-Git/file-with-lines.txt b/Week-1-Git/file-with-lines.txt
+deleted file mode 100644
+index 92c8f48..0000000
+--- a/Week-1-Git/file-with-lines.txt
++++ /dev/null
+@@ -1,10 +0,0 @@
+-First line
+-Second line
+-Third line
+-Fourth line
+-Fifth line
+-Sixth line
+-Seventh line
+-Eighth line
+-Nineth line
+-Tenth  line

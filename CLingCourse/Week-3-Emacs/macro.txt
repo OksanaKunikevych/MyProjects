@@ -1,0 +1,177 @@
+I've created 3 different macros for text normalizing, sorting lines and gluing them all in one file. 
+
+1. $normalize macros
+
+;; Keyboard Macro Editor.  Press C-c C-c to finish; press C-x k RET to cancel.
+;; Original keys: <<replace-regexp>> C-q LFD C-q LFD + RET <Put SPC a SPC newline SPC here> RET M-< M-x <up> RET SPC + RET SPC RET M-< M-x <up> RET C-q LFD RET SPC RET M-< M-x <up> RET <Put SPC a SPC newline SPC here> RET C-q LFD RET M-<
+
+Command: last-kbd-macro
+Key: none
+
+Macro:
+
+<<replace-regexp>>	;; replace-regexp
+C-q			;; quoted-insert
+LFD			;; newline-and-indent
+C-q			;; quoted-insert
+LFD			;; newline-and-indent
++			;; self-insert-command
+RET			;; newline
+<Put			;; self-insert-command * 4
+SPC			;; self-insert-command
+a			;; self-insert-command
+SPC			;; self-insert-command
+newline			;; self-insert-command * 7
+SPC			;; self-insert-command
+here>			;; self-insert-command * 5
+RET			;; newline
+M-<			;; beginning-of-buffer
+M-x			;; execute-extended-command
+<up>			;; previous-line
+RET			;; newline
+SPC			;; self-insert-command
++			;; self-insert-command
+RET			;; newline
+SPC			;; self-insert-command
+RET			;; newline
+M-<			;; beginning-of-buffer
+M-x			;; execute-extended-command
+<up>			;; previous-line
+RET			;; newline
+C-q			;; quoted-insert
+LFD			;; newline-and-indent
+RET			;; newline
+SPC			;; self-insert-command
+RET			;; newline
+M-<			;; beginning-of-buffer
+M-x			;; execute-extended-command
+<up>			;; previous-line
+RET			;; newline
+<Put			;; self-insert-command * 4
+SPC			;; self-insert-command
+a			;; self-insert-command
+SPC			;; self-insert-command
+newline			;; self-insert-command * 7
+SPC			;; self-insert-command
+here>			;; self-insert-command * 5
+RET			;; newline
+C-q			;; quoted-insert
+LFD			;; newline-and-indent
+RET			;; newline
+M-<			;; beginning-of-buffer
+
+2. $sort macro (create a macro for two first files and then repeat it on the next two files with C-xu 0 C-x e)
+;; Keyboard Macro Editor.  Press C-c C-c to finish; press C-x k RET to cancel.
+;; Original keys: RET M-x $ n o r m a l i z e RET C-x h M-x s o t DEL r t - l i n e s RET C-x h M-x r e v e r s e - r e g i o n RET C-x <left> <down> RET M-x $ n o r m a l i z e RET C-x h M-x s o r t - l i n e s RET C-x <C-left> <down>
+
+Command: last-kbd-macro
+Key: none
+
+Macro:
+
+RET			;; dired-find-file
+M-x			;; execute-extended-command
+$			;; dired-hide-subdir
+n			;; dired-next-line
+o			;; dired-find-file-other-window
+r			;; self-insert-command
+m			;; dired-mark
+a			;; dired-find-alternate-file
+l			;; dired-do-redisplay
+i			;; dired-maybe-insert-subdir
+z			;; self-insert-command
+e			;; dired-find-file
+RET			;; dired-find-file
+C-x h			;; mark-whole-buffer
+M-x			;; execute-extended-command
+s			;; dired-sort-toggle-or-edit
+o			;; dired-find-file-other-window
+t			;; dired-toggle-marks
+DEL			;; dired-unmark-backward
+r			;; self-insert-command
+t			;; dired-toggle-marks
+-			;; negative-argument
+l			;; dired-do-redisplay
+i			;; dired-maybe-insert-subdir
+n			;; dired-next-line
+e			;; dired-find-file
+s			;; dired-sort-toggle-or-edit
+RET			;; dired-find-file
+C-x h			;; mark-whole-buffer
+M-x			;; execute-extended-command
+r			;; self-insert-command
+e			;; dired-find-file
+v			;; dired-view-file
+e			;; dired-find-file
+r			;; self-insert-command
+s			;; dired-sort-toggle-or-edit
+e			;; dired-find-file
+-			;; negative-argument
+r			;; self-insert-command
+e			;; dired-find-file
+g			;; revert-buffer
+i			;; dired-maybe-insert-subdir
+o			;; dired-find-file-other-window
+n			;; dired-next-line
+RET			;; dired-find-file
+C-x <left>		;; previous-buffer
+<down>			;; next-line
+RET			;; dired-find-file
+M-x			;; execute-extended-command
+$			;; dired-hide-subdir
+n			;; dired-next-line
+o			;; dired-find-file-other-window
+r			;; self-insert-command
+m			;; dired-mark
+a			;; dired-find-alternate-file
+l			;; dired-do-redisplay
+i			;; dired-maybe-insert-subdir
+z			;; self-insert-command
+e			;; dired-find-file
+RET			;; dired-find-file
+C-x h			;; mark-whole-buffer
+M-x			;; execute-extended-command
+s			;; dired-sort-toggle-or-edit
+o			;; dired-find-file-other-window
+r			;; self-insert-command
+t			;; dired-toggle-marks
+-			;; negative-argument
+l			;; dired-do-redisplay
+i			;; dired-maybe-insert-subdir
+n			;; dired-next-line
+e			;; dired-find-file
+s			;; dired-sort-toggle-or-edit
+RET			;; dired-find-file
+C-x <C-left>		;; previous-buffer
+<down>			;; next-line
+
+
+3. $glue macro
+;; Keyboard Macro Editor.  Press C-c C-c to finish; press C-x k RET to cancel.
+;; Original keys: RET C-x h M-w C-x b g l u e d . t x t RET C-y RET C-x b 7 RET <down>
+
+Command: last-kbd-macro
+Key: none
+
+Macro:
+
+RET			;; dired-find-file
+C-x h			;; mark-whole-buffer
+M-w			;; kill-ring-save
+C-x b			;; switch-to-buffer
+g			;; revert-buffer
+l			;; dired-do-redisplay
+u			;; dired-unmark
+e			;; dired-find-file
+d			;; dired-flag-file-deletion
+.			;; dired-clean-directory
+t			;; dired-toggle-marks
+x			;; dired-do-flagged-delete
+t			;; dired-toggle-marks
+RET			;; dired-find-file
+C-y			;; yank
+RET			;; dired-find-file
+C-x b			;; switch-to-buffer
+7			;; digit-argument
+RET			;; dired-find-file
+<down>			;; next-line

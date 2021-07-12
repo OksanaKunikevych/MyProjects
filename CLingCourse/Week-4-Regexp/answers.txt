@@ -1,0 +1,165 @@
+1.
+
+	-?(\d+(-\d+)?(\,\d{3})*(\.\d)?)+
+
+2. 
+
+	\b.*(?<!and)(?<!obese) (wo)?m[ae]n\b
+
+3.
+
+	(\w+-)+\w+ing(?=_JJ)
+
+	22 matches:
+
+00-something
+Award-winning
+content-monitoring
+Crown-winning
+deco-looking
+easy-going
+fast-growing
+heat-seeking
+highest-paying
+life-threatening
+long-standing
+martini-drinking
+nit-picking
+non-binding
+non-leaking
+not-too-surprising
+Oscar-winning
+production-sharing
+scientific-sounding
+second-biggest-selling
+still-strengthening
+wide-ranging
+
+4.
+
+	^.+ (very|really|extremely)_RB (\w+_RB)*(afraid|angry|bad|beautiful|big|bright|clever|cold|conventional|delicate|dirty|dry|fierce|frustrating|funny|good|happy|heavy|hot|hungry|important|large|lively|loved|neat|old|poor|pretty|profitable|quiet|risky|roomy|rude|scared|sensitive|serious|significant|small|stupid|tasty|thin|tight|tired|ugly|unreasonable|valuable|warm|weak|wise|worried)_JJ.*
+
+	To clean the sentences: (_[A-Z$]+|_\,|_\.|_''|_``)|(\d+:)
+
+What game is Garry Kasparov really good at ?
+One day , while all the townspeople were out , Abraham angrily smashed all the idols with his right hand except for one , which was very large .
+Once someone is good talking to people using routine -LRB-_-LRB- and that person does n't even need to be really good , just comfortable talking -RRB-_-RRB- , they should slowly use less and less routines until they do n't use any at all and their inner self and personality can just shine through .
+And they purposefully offer those low rates to incite you to rack up debts and get you the day you miss some payment somewhere and all of a sudden , your debt incurs those exhorbitant credit card interest rates which suddently make you a very profitable customer for the bank .
+" Average " programmers can write very good code , if they are managed correctly .
+I am very happy with that approach :_: I actually write tests nowadays .
+Do you really think the store would just return $ 00 without a coupon ?
+and for spraying insecticides on trees often you 'll need to climb a ladder for the spray to reach the uppermost portions , it 's not easy to climb even a small step ladder with a sprayer tank , the liquid sloshes and can easily put you off balance , plus a couple of gallons can get very heavy on a ladder .
+About your " toolbox ballast , " I flew my Lazy Bee at the beach with a cheap motor drive 00 mm camera on it , years ago when they were really heavy and it did really fly better although different with all of that " ballast . "
+
+5.
+
+	^.*(\w+\.?(-\w+)?_NNP?S? ){5,}.*
+
+What 's the distinction of U.S. Supreme Court Justice Thurgood Marshall ?
+Which radio stations air the Jim Bohannon Radio Talk Show ?
+What Mary Tyler Moore Show regular came into the world as Tadeus Wladyslaw Konopka ?
+What was the nickname of German flying ace Manfred von Richthofen ?
+In recent years , Nanning City has successively issued and implemented a series of laws and regulations , such as " A number of regulations for the management of city park greenification in Nanning City " , " Ordinances for city park greenification in Nanning City " , " Regulations for the protection and management of ancient trees and famous trees in Nanning City " , etc. ensuring that the Nanning City park greenification work has scientific planning and a laws to rely on .
+But for now , says former Clinton administration cabinet member Robert Riche , both sides are positive that they 've won the election , and says Riche , the longer the fight goes on , the more troublesome the next four years might be .
+Labor Party candidate Kevin Rudd swept to power in a landslide victory over Liberal incumbent John Howard , the second-longest serving prime minister in Australian history .
+To the historian Douglas Brinkley , Democratic electoral victories in November 1900 spelled " the death of the neoconservative movement , " while at National Review Online John Derbyshire wrote that " all the buzz is that neoconservatism is as dead as mutton . "
+The deductible is the amount of money you pay out-of-pocket for veterinarian services rendered that your pet health care insurance plan does not cover .
+We are scared stiff that large corporates will go the Linux Open Office ODF way if we continue to try and ram Vista down their throats .
+Dick Simon Trucking driver Mike Bowers , who had a history of legal and mental problems , rammed his vehicle into the Capitol 's south portico .
+Complete Description :_: The Business Systems Analyst role is to capture and map inbound and outbound SWIFT MT00x Securities Lending Trades to internal Lending Systems .
+-LRB-_-LRB- 0 -RRB-_-RRB- Raymond grounded her thinking in part on the research of Johns Hopkins University psychologist John Money .
+Magnussen edged his Corvette Racing teammate Oliver Gavin in the No. 0 Compuware Corvette C0.R by .000
+VAERS is a passive surveillance system and depends upon voluntary reporting of serious health problems following vaccination , even though safety provisions in the National Childhood Vaccine Injury Act of 1900 mandated that health care providers report vaccine adverse events .
+When you want to better your score at golf , always remember the Ben Hogan Golf Club name .
+According to the Mid and Long Term Railway Network Development Program , the route length of China 's railways will reach 000,000 kilometers by 1900 , with a separation of passengers and freight traffic on busy trunk lines and half of the lines to be double tracked and electrified .
+
+
+6.
+
+	^.*\b(go(es|ne|ing)?|went)_VB[DGPZN]? \w+_IN.*
+
+What is the best Internet business to go into ?
+What are the signs of a country going into a recession ?
+How would someone go about becoming an organ donor ?
+Why do we have to go to school ?
+Where did Freidreich Wilhelm Ludwig Leichhardt , Prussian born explorer , go to school ?
+What poet wrote :_: " ..._: I have promises to keep , and miles to go before I sleep " ?
+How many times a day does the typical person go to the bathroom ?
+What comic of TV 's golden age went by the motto " Anything for a laugh " ?
+What year did nylon stockings first go on sale ?
+Remove what screws there are , then carefully pop the buttons loose from the door one by one -LRB-_-LRB- you can often do this by just pulling the panel out , but it 'll sometimes rip the slots where they go in the door -_: a panel popper tool is definitely recommended -RRB-_-RRB- .
+Theresa May is probably worth five or six Celia Barlows , though to really thrash out the rules you 'd have to go on a long train journey with Francis Maude and you might prefer to kill yourself .
+cuz it would totally suck if we died and didnt have to go thru this ...
+He jumped out the window like a crazy man , smashed himself on the ground , went through a thorn bush , then he stood up and started to run fast to his car .
+Under-hood temperatures were a problem when they sealed the cooling system and went to higher temp thermostats , many years ago .
+yes , but MS will rack up another $ 0 billion in losses for the XBox division this year , it 's currently at $ 0 billion gone from this one product alone .
+hehehe I 've never hurt myself that bad , but a girl that went to school with me got mad at her boyfriend and punched her dresser .
+Running around to get that internship and family would be like going to the bus drivers or train conductors at each stop to get one 's travel ticket punched .
+This time I let the dough barely double then punched down and let it go thru a 0nd rise allowing it to only double in volume .
+Blood pressure medications come in a wide range of formulas and dosages ;_: each aimed at reducing the pressure going through the blood vessels either as the heart pumps blood or relaxes .
+As you fill the master cylinder and pump the brakes all of the air will go through the hose but not back in .
+Now you just go to the store , buy a radio and plug it in .
+Joss was going with a softer-edged tone for WW than the current movie market is looking for .
+They have not tried to drum Christianity down his neck , he goes to church with the school once a term , and he has told me that he can handle that -LRB-_-LRB- he largely daydreams -RRB-_-RRB- So that is at least one faith school I know of that has not even attempted to seperate kids based on faith , nor any other thing .
+We drum into every one 's head that goes thru the CCW class .
+I finishe unloading the groceries , and tell the cats again , to go to the other door .
+Well I suppose if those jerks are going to go to that much trouble to steal gas , there 's not much that can be done .
+A person can hate Bonds and spend weekends performing in a James Brown cover band , with all proceeds going to the United Negro College Fund .
+Even though these cards wo n't report any card practices that would work in your favor , any problems that go to collections will work against you .
+I changed which supermarket I normally shop at to reduce my average wait in line by 0 or 0 minutes , even though I spend that much more time driving to and from the one I go to now .
+Aunt Judy 's beater going off a cliff will reach maximum speed just prior to contact with the ground .
+i 'd go into shops and helpfully point out the inappropriate apostrophe on their window sign .
+My paternal grandfather did a bit of coin collecting himself and would let me go through his accumulation of wheat cents and pick out dates and mints I needed .
+If you 're going for flavor , pick orange that were naturally ripened and have some green and uneveness to the color of the skin , or else you 're eating a paint job .
+If you own Dungeon siege then go to http:www.u0lazarus.com and play Ultima V using the DS engine .
+I almost always notice the brick chimney which was saved , when I go past the site of a house fire .
+" While there are 00 root servers , these servers are mirrored so that over 000 servers handle the queries that go to the root server .
+I have compared other new manual IONs on the lot as well as an '00 ION which pleasingly went into all gears nicely and mine just feels tough to get into 0nd gear .
+
+7.
+	Task 1:
+only avaliable lesson
+constantly expanding market
+wildly screaming parrot
+deeply loving mother
+perfectly suitable public
+strongly annoying person
+
+	Task 2:
+"Love and Responsibility" by Karol Wojtyla
+"Computer and Brain" by John von Neumann
+"Virgin and Child" by Rogier van der Weyden
+"Racism and Press" by Teun van Dijk
+"Oona and Salinger" by Frederic Beigbeder
+"Looking for Alaska" by John Greender
+
+
+8.
+
+	\b([a-z]+)_NN[PS]? after_IN \1
+
+Beagle and the related programs sit there and thrash your drive constantly while building up index after index in your home directory .
+In sorrow after sorrow it is his steps that press upon my heart , and it is the golden touch of his feet that makes my joy to shine .
+They pump out book after book of " guidance " to tell their faithful flock how they are supposed to think and behave about everything for the sake of " unity . "
+In an effort to halt the disappearance of species after species of frogs and salamanders over the past 00 years , dozens of scientists this week mapped out a plan of action , including emergency responses to save species under the greatest threat .
+The Big Lie Technique , repeating the same falsehoods over and over and over , drummed those lies into Americans ' heads day after day , month after month , with little if any skeptical analysis by the corporate mainstream media , which marched mostly in lockstep with Bush policy and thinking .
+
+9.
+
+	1. Find two matching groups and swap them: ( *)([a-z]+) -> \2\1
+	2. F9 to sort lines, permute lines -> unique
+	3. Swap matching groups once again: ([a-z]+)( *) -> \2\1
+
+10.
+
+	1. Clean up the mess: 
+	Replace with nothing: \|?(Mut).*|^\..*\n|\d+ \-|:[IT]|T\n|NIL|(Total).*
+	Trimmer: delete blank limes, remove trailing and leading spaces
+
+	2. Concatenate phrases:
+
+	\"(\w+)\"\n\"(\w+)\"\n\"(\w+)\"\n(\"(\w+)\"\n)? --> //\1 \4\3 \2 sth.\n
+
+	//(\w+) (\")(\w+)(\")\n(.*) --> //\1 \3 \5
+	
+I'm also wondering is it possible to somehow sort phrases?

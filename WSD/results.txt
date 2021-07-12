@@ -1,0 +1,27 @@
+ORIGINAL LESK
+
+Test-set:
+
+TP: 35
+FP: 65
+Precision: 38.0
+===========================
+
+WEIGHTED LESK
+
+Test-set:
+
+TP: 34
+FP: 66
+Precision: 37.0
+===========================
+
+SEMCOR LESK
+
+Test-set:
+
+TP: 39
+FP: 61
+Precision: 39.0
+===========================
+

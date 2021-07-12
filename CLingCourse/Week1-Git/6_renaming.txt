@@ -1,0 +1,26 @@
+[master 8f2bbbe] task 6 file renamed
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename Homework/Oksana/Week1-Git/{renamed-file.txt => file.txt} (100%)
+ok@ok:~/cling-course/Homework/Oksana/Week1-Git$ git log -p
+commit 8f2bbbe19cf0c138c54603535aaeebeb56ef2e93
+Author: OksanaKunikevych <kunikevych@gmail.com>
+Date:   Sat Jul 18 10:56:20 2015 +0300
+
+    task 6 file renamed
+
+diff --git a/Homework/Oksana/Week1-Git/file.txt b/Homework/Oksana/Week1-Git/file
+new file mode 100644
+index 0000000..92c8f48
+--- /dev/null
++++ b/Homework/Oksana/Week1-Git/file.txt
+@@ -0,0 +1,10 @@
++First line
++Second line
++Third line
++Fourth line
++Fifth line
++Sixth line
++Seventh line
++Eighth line
++Nineth line
++Tenth  line

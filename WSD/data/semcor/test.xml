@@ -1,0 +1,29 @@
+<contextfile concordance="brown">
+<context filename="br-a01" paras="yes">
+<p pnum="1">
+<s snum="1">
+<wf cmd="ignore" pos="DT">The</wf>
+<wf cmd="done" rdf="group" pos="NNP" lemma="group" wnsn="1" lexsn="1:03:00::" pn="group">Fulton_County_Grand_Jury</wf>
+<wf cmd="done" pos="VB" lemma="say" wnsn="1" lexsn="2:32:00::">said</wf>
+<wf cmd="done" pos="NN" lemma="friday" wnsn="1" lexsn="1:28:00::">Friday</wf>
+<wf cmd="ignore" pos="DT">an</wf>
+<wf cmd="done" pos="NN" lemma="investigation" wnsn="1" lexsn="1:09:00::">investigation</wf>
+<wf cmd="ignore" pos="IN">of</wf>
+<wf cmd="done" pos="NN" lemma="atlanta" wnsn="1" lexsn="1:15:00::">Atlanta</wf>
+<wf cmd="ignore" pos="POS">'s</wf>
+<wf cmd="done" pos="JJ" lemma="recent" wnsn="2" lexsn="5:00:00:past:00">recent</wf>
+<wf cmd="done" pos="NN" lemma="primary_election" wnsn="1" lexsn="1:04:00::">primary_election</wf>
+<wf cmd="done" pos="VB" lemma="produce" wnsn="4" lexsn="2:39:01::">produced</wf>
+<punc>``</punc>
+<wf cmd="ignore" pos="DT">no</wf>
+<wf cmd="done" pos="NN" lemma="evidence" wnsn="1" lexsn="1:09:00::">evidence</wf>
+<punc>''</punc>
+<wf cmd="ignore" pos="IN">that</wf>
+<wf cmd="ignore" pos="DT">any</wf>
+<wf cmd="done" pos="NN" lemma="irregularity" wnsn="1" lexsn="1:04:00::">irregularities</wf>
+<wf cmd="done" pos="VB" lemma="take_place" wnsn="1" lexsn="2:30:00::">took_place</wf>
+<punc>.</punc>
+</s>
+</p>
+    </context>
+    </contextfile>

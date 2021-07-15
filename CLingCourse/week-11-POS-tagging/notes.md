@@ -1,7 +1,0 @@
-##Notes
-
-1. Nice reasoning, but if you wanted to make a real-world POS tagger, you would have to do more thinking on the regular expressions :) For example, "returns" is tagged as `NNS`; your tagger won't give this word a chance to be a verb. There is one more point for you to think about: if you have rules for `JJR` and `JJS`, why is "prettier" tagged as a noun? (`print t3.tag(["prettier"])`)
-2. Nice.
-3. Your function looks nice and compact, but there are two problems there. The first one is purely stylistic: some adjectives are found more than once, so it's better to return a set of `adj` rather than `adj` itself. The second problem is that you return 14 unique adjectives out of 18. You may want to have a closer look at your regexp considering the following: if the number is large (more than three digits) or decimal, will your regexp catch it?
-4. Nice. It would have been nicer though if you had replaced the `-LRB` and `-RRB-` with the corresponding symbols.
-5. Your function doesn't work correctly. Its output is `'The'`, but this is incorrect. If you print out `num` (which is supposed to be the number of tags), you will see 167! There aren't even so many tags in the tagset. Think about what value the variable is assigned here: `wt = tagged.split("_")`

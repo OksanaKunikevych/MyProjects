@@ -3,8 +3,8 @@ import socket
 
 
 # CAPI host and port
-CAPI_HOST = 'tcp.capi.qagr.io'
-CAPI_PORT = 8092
+CAPI_HOST = ''
+CAPI_PORT = 0101
 
 
 class Client(object):
@@ -46,7 +46,6 @@ class Client(object):
 def form_request(text):
     """
     Form a proper request for CAPI. Ask for tokens only.
-    See https://github.com/grammarly/common-api/wiki/TCP for details.
     :param text: list of str (sentences)
     :return: dict
     """

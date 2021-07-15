@@ -6,9 +6,6 @@ from nltk.corpus import wordnet as wn
 import logging
 import os
 
-# from Oksana.scripts.data_parser import parse
-# from Oksana.scripts.get_ngram_cling import get_ngram
-# from Oksana.scripts.tokenize_cling import tag_text
 
 from data_parser import parse
 from get_ngram_cling import get_ngram

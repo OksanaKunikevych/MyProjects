@@ -2,7 +2,7 @@ import json
 import socket
 
 # CAPI host and port
-CAPI_HOST = 'ngrams.grammarly.com'
+CAPI_HOST = 'ngrams.com'
 CAPI_PORT = 19999
 
 
